@@ -1,1 +1,0 @@
-# simoneparri.github.io
