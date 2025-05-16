@@ -1,1 +1,99 @@
-Hello World
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simone Parri</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 800px;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #555;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      margin: 0.5rem 0;
+      font-size: 2rem;
+    }
+
+    h2 {
+      margin: 0.2rem 0;
+      color: #777;
+      font-weight: normal;
+    }
+
+    p.bio {
+      margin-top: 1rem;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .socials a {
+      margin: 0 0.5rem;
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+    }
+
+    .btn {
+      margin-top: 1.5rem;
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      background-color: #0077cc;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #005fa3;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://via.placeholder.com/150" alt="Foto profilo" class="profile-pic" />
+    <h1>Simone Parri</h1>
+    <h2>Software Engineer & AI Enthusiast</h2>
+    <p class="bio">
+      Ciao! Sono un ingegnere del software con la passione per l'intelligenza artificiale e la costruzione di esperienze digitali intelligenti. Amo lavorare su chatbot, automazione e tecnologie che semplificano la vita.
+    </p>
+    <div class="socials">
+      <a href="https://github.com/simoneparri" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/simoneparri" target="_blank">LinkedIn</a>
+      <a href="mailto:simone.parri@example.com">Email</a>
+    </div>
+    <a href="cv.pdf" class="btn" target="_blank">Scarica CV</a>
+  </div>
+</body>
+</html>
